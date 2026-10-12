@@ -10,7 +10,6 @@
     android:background="@color/background_app"
     tools:context=".MainActivity">
 
-    <!-- TÍTULO -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -23,7 +22,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- TARJETA MALE -->
     <androidx.cardview.widget.CardView
         android:id="@+id/viewMale"
         android:layout_width="0dp"
@@ -59,7 +57,6 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>
 
-    <!-- TARJETA FEMALE -->
     <androidx.cardview.widget.CardView
         android:id="@+id/viewFemale"
         android:layout_width="0dp"
@@ -94,7 +91,6 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>
 
-    <!-- TARJETA HEIGHT -->
     <androidx.cardview.widget.CardView
         android:id="@+id/viewHeight"
         android:layout_width="0dp"
@@ -141,7 +137,6 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>
 
-    <!-- TARJETA WEIGHT -->
     <androidx.cardview.widget.CardView
         android:id="@+id/viewWeight"
         android:layout_width="0dp"
@@ -206,7 +201,6 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- TARJETA AGE -->
     <androidx.cardview.widget.CardView
         android:id="@+id/viewAge"
         android:layout_width="0dp"
